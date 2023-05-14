@@ -10,8 +10,12 @@ let settings = {
         fields: '95px'
     },
     breakPoints: {
+        xlm: {
+            width: '1740px',
+            fields: '48px'
+        },
         lm: {
-            width: '1120px',
+            width: '1320px',
             fields: '48px'
         },
         md: {
@@ -22,9 +26,13 @@ let settings = {
             width: '768px',
             fields: '36px'
         },
+        xsm: {
+            width: '540px',
+            fields: '36px'
+        },
         xxs: {
-            width: '330px',
-            fields: '20px'
+            width: '375px',
+            fields: '10px'
         }
     }
 };
